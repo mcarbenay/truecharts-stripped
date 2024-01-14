@@ -1,0 +1,25 @@
+image:
+  repository: tccr.io/tccr/alpine
+  pullPolicy: IfNotPresent
+  tag: latest@sha256:12e0f84947ee7fc11f552e065a46d5a2b4e27cfc6ded0f624fc948c3138fb9a9
+
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+
+workload:
+  main:
+    enabled: false
+
+portal:
+  open:
+    enabled: false
+
+operator:
+  register: true
+
+manifestManager:
+  enabled: false
